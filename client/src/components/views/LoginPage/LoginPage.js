@@ -23,14 +23,7 @@ function LoginPage() {
            email: Email,
            password: Password
        }
-
        dispatch(loginUser(body))
-       
-       Axios.post('/api/users/login', body)
-            .then(response => {
-
-            })
-       
     }
 
     return (
